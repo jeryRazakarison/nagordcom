@@ -4,6 +4,7 @@
 
 baseURL: 'https://nagord.com'
 title: Nagord
+publishDir: doc
 
 ############################
 ## MISC
