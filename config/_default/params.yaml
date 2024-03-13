@@ -3,22 +3,21 @@
 ############################
 
 author:
-  name: jeryRazakarison
-  image: author.png
-  greeting: "Your new Qubt site :tada:"
-  icon: ":wave:"
+  name: Nagord
+  image: nagordlogo2.png
+  greeting: "Mobile apps development"
 
 ############################
 ## Links
 ############################
 
 links:
-  - github: https://github.com/jeryRazakarison/nagordcom
-  - link: https://github.com/jeryRazakarison/nagordcom#readme
+  # - github: https://github.com/jeryRazakarison/nagordcom
+  # - link: https://github.com/jeryRazakarison/nagordcom#readme
   # - website: 
   # - x-twitter: 
   # - mastodon: 
-  # - linkedin: 
+  - linkedin: https://www.linkedin.com/in/jeryraza/
   # - instagram: 
   # - reddit: 
   # - telegram: 
@@ -64,7 +63,7 @@ links:
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: nagordcom
-description: "Site build with Qubt & Hugo"
+title: Nagord
+description: "Site build with Hugo"
 images:
   - thumbnail.png

@@ -1,4 +1,4 @@
-module github.com/jeryRazakarison/nagordcom
+module github.com/jeryRazakarison/nagordcomaa
 
 go 1.22.1
 
