@@ -335,6 +335,11 @@ p {
   line-height: 1.4;
 }
 
+.hero-stats dd strong {
+  color: #ffffff;
+  font-weight: 850;
+}
+
 .signal-bar {
   background: var(--ink);
   color: #ffffff;
