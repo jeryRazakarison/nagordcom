@@ -1,7 +1,2 @@
-# Hugo stuff
-.hugo_build.lock
-**/resources/_gen/
-
-
 # Apple stuff
 .DS_Store
