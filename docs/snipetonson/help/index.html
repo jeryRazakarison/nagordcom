@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Snipe ton son - Aide / Help | Nagord</title>
+    <meta
+      name="description"
+      content="Aide de l'application Snipe ton son. Help for the Snipe your sound app."
+    >
+    <meta name="theme-color" content="#0f1718">
+    <meta property="og:title" content="Snipe ton son - Aide / Help">
+    <meta property="og:description" content="Aide de l'application Snipe ton son. Help for the Snipe your sound app.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://nagord.com/snipetonson/help/">
+    <meta property="og:locale" content="fr_FR">
+    <link rel="canonical" href="https://nagord.com/snipetonson/help/">
+    <link rel="alternate" hreflang="fr" href="https://nagord.com/snipetonson/help/fr/">
+    <link rel="alternate" hreflang="en" href="https://nagord.com/snipetonson/help/en/">
+    <link rel="alternate" hreflang="x-default" href="https://nagord.com/snipetonson/help/">
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/styles.css">
+    <script>
+      (function () {
+        var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""];
+        var target = "en";
+        for (var i = 0; i < prefs.length; i++) {
+          var base = String(prefs[i] || "").toLowerCase().split("-")[0];
+          if (base === "fr" || base === "en") {
+            target = base;
+            break;
+          }
+        }
+        window.location.replace("/snipetonson/help/" + target + "/");
+      })();
+    </script>
+    <style>
+      /* Page légale : texte long, aligné en haut, titres plus sobres que sur les pages projet */
+      .legal-page .article-main {
+        align-items: start;
+      }
+
+      .legal-page .article-shell h1 {
+        max-width: none;
+        margin-bottom: 14px;
+        font-size: 2.6rem;
+        line-height: 1.1;
+      }
+
+      .legal-page .legal-date {
+        margin-bottom: 34px;
+        color: var(--muted);
+      }
+
+      .legal-page .legal-summary {
+        margin-bottom: 40px;
+        padding: 20px 24px;
+        border: 1px solid var(--line);
+        border-left: 4px solid var(--teal);
+        border-radius: var(--radius);
+        background: var(--mist);
+        color: var(--ink-soft);
+        font-size: 1.12rem;
+        line-height: 1.6;
+      }
+
+      .legal-page .article-shell h2 {
+        margin: 40px 0 12px;
+        font-size: 1.5rem;
+        line-height: 1.25;
+      }
+
+      .legal-page .article-shell p:not([class]),
+      .legal-page .article-shell li {
+        color: var(--ink-soft);
+        font-size: 1.06rem;
+        line-height: 1.68;
+      }
+
+      .legal-page .article-shell p:not([class]) {
+        margin-bottom: 14px;
+      }
+
+      .legal-page .article-shell ul {
+        margin: 0 0 14px;
+        padding-left: 22px;
+      }
+
+      .legal-page .article-shell li {
+        margin-bottom: 8px;
+      }
+
+      .legal-page .article-shell a {
+        color: var(--teal);
+      }
+
+      /* Sélecteur de langue */
+      .legal-page .article-shell .lang-switch {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 16px;
+        margin: 0 0 30px;
+        padding: 0;
+        list-style: none;
+        font-size: 0.92rem;
+      }
+
+      .legal-page .article-shell .lang-switch li {
+        margin: 0;
+        font-size: 0.92rem;
+      }
+
+      .lang-switch [aria-current] {
+        color: var(--ink);
+        font-weight: 800;
+      }
+
+      .main-nav a[aria-current] {
+        background: rgba(12, 107, 98, 0.09);
+        opacity: 1;
+      }
+
+
+      @media (max-width: 640px) {
+        .legal-page .article-shell h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="article-page legal-page">
+    <header class="site-header is-scrolled" data-header>
+      <a class="brand" href="/index.html#top" aria-label="Retour à l'accueil">
+        <span class="brand-mark">
+          <img src="/assets/nagord-logo.webp" alt="" width="40" height="40">
+        </span>
+        <span class="brand-text">
+          <strong>Nagord</strong>
+          <span>Mobile apps</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Pages de l'application">
+        <a href="/snipetonson/help/fr/">Aide</a>
+        <a href="/snipetonson/privacy/fr/">Confidentialité</a>
+      </nav>
+    </header>
+
+    <main class="article-main">
+      <article class="container article-shell">
+        <p class="eyebrow">Snipe ton son</p>
+        <h1>Aide / Help</h1>
+        <p class="legal-date">Choisissez votre langue / Choose your language</p>
+        <ul>
+          <li><a href="/snipetonson/help/fr/" hreflang="fr" lang="fr">Français — Aide</a></li>
+          <li><a href="/snipetonson/help/en/" hreflang="en" lang="en">English — Help</a></li>
+        </ul>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <p>© <span data-year>2026</span> Nagord. Jery Razakarison.</p>
+        <a href="/index.html#top">Retour à l'accueil</a>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

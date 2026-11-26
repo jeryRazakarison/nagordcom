@@ -103,6 +103,18 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://nagord.com/snipetonson/help/fr/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://nagord.com/snipetonson/help/en/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://nagord.com/snipetonson/privacy/fr/</loc>
     <lastmod>2026-11-26</lastmod>
     <changefreq>yearly</changefreq>
